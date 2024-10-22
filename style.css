@@ -10,37 +10,149 @@
 }
 
 
-.raleway {
+.main-name{
     font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 700px;
-    font-style: normal;
+    font-size: 26px;
+    line-height: 30.52px;
 }
 
 
-.roboto-medium {
+.categories{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-style: normal;
+    font-size: 14px;
+    line-height: 16.41px;
 }
 
 
-.roboto-black {
+.big-title {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
-    font-style: normal;
+    font-size: 44px;
+    line-height: 60px;
 }
 
 
-.roboto-bold {
+.button {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
 }
 
 
-.roboto-regular {
+.p-for-plan {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
   }
+
+
+  .contacts{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+  
+
+.plan-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.what-are-we-doing{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.19px;
+}
+
+.people{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.19px;
+}
+
+.names{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+.peoples-work{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+.address{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.contacts-footer{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.contacts-footer-mail{
+    text-decoration: none;
+}
+
+.contacts-footer-tel{
+    text-decoration: none;
+}
+
+.main-name-link{
+text-decoration: none;
+}
+
+.categories-link{
+    text-decoration: none;
+}
+
+.contacts-header-mail{
+    text-decoration: none;
+}
+
+.contacts-header-tel{
+    text-decoration: none;
+}
+
+.main-button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.main-info {
+}
+.list-main-info {
+}
+.images-main-info {
+}
+.name-main-info {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}
+.span-main-info {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
