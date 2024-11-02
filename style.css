@@ -9,20 +9,30 @@
     --gray-color: #757575;
 }
 
+.container {
+    width: 1600px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
 
-.main-name{
+.main-name {
     font-family: "Raleway", sans-serif;
     font-weight: 700px;
     font-size: 26px;
     line-height: 30.52px;
+    outline: 1px solid red;
+    margin-bottom: 25px;
+    color: var(--black-color);
 }
 
 
-.categories{
+.categories {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 16.41px;
+    outline: 1px solid red;
+    margin-bottom: 32px;
 }
 
 
@@ -31,14 +41,25 @@
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
+    outline: 1px solid red;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 232px;
+    vertical-align: bottom;
 }
 
 
-.button {
+.btn-order {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
+    outline: 1px solid red;
+    margin-bottom: 200px;
+    text-align: center;
+    background-color: var(--main-color);
+    color: #FFFFFF;
 }
 
 
@@ -47,112 +68,226 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-  }
+    outline: 1px solid red;
+    margin-bottom: 118px;
+}
 
 
-  .contacts{
+.contacts {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 16.41px;
+    outline: 1px solid red;
 }
-  
 
-.plan-title{
+
+.plan-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 16.41px;
+    outline: 1px solid red;
+    margin-top: 94px;
+    margin-bottom: 10px;
 }
 
-.what-are-we-doing{
+.what-are-we-doing {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 42.19px;
+    outline: 1px solid red;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
-.people{
+.people {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 42.19px;
+    outline: 1px solid red;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
-.names{
+.names {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 18.75px;
+    outline: 1px solid red;
+    margin-bottom: 10px;
 }
 
-.peoples-work{
+.peoples-work {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 18.75px;
+    outline: 1px solid red;
 }
 
-.address{
+.address {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    outline: 1px solid red;
+    color: var(--white-color);
 }
 
-.contacts-footer{
+.contacts-footer {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    outline: 1px solid red;
 }
 
-.contacts-footer-mail{
+.contacts-footer-mail {
     text-decoration: none;
+    outline: 1px solid red;
+    color: var(--white-color);
 }
 
-.contacts-footer-tel{
+.contacts-footer-tel {
     text-decoration: none;
+    outline: 1px solid red;
+    margin-bottom: 60px;
+    color: var(--white-color);
 }
 
-.main-name-link{
-text-decoration: none;
-}
-
-.categories-link{
+.main-name-link {
     text-decoration: none;
+    outline: 1px solid red;
 }
 
-.contacts-header-mail{
+.categories-link {
     text-decoration: none;
+    outline: 1px solid red;
 }
 
-.contacts-header-tel{
+.contacts-header-mail {
     text-decoration: none;
+    outline: 1px solid red;
 }
 
-.main-button{
+.contacts-header-tel {
+    text-decoration: none;
+    outline: 1px solid red;
+    color: var(--gray-color);
+}
+
+.first-main-section-portfolio{
+    margin-bottom: 50px;
+}
+
+.main-button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+    outline: 1px solid red;
+}
+
+.main-button-active{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    outline: 1px solid red;
+    background-color: var(--main-color);
+    color: white;
 }
 
 .main-info {
+    outline: 1px solid red;
 }
+
 .list-main-info {
+    outline: 1px solid red;
 }
+
 .images-main-info {
+    list-style: none;
+    outline: 1px solid red;
 }
+
 .name-main-info {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
+    outline: 1px solid red;
 }
+
+
 .span-main-info {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
+    outline: 1px solid red;
 }
+
+
+.list-categories {
+    list-style: none;
+    outline: 1px solid red;
+}
+
+
+.list-contacts {
+    list-style: none;
+    outline: 1px solid red;
+}
+
+.main-list-item {
+    list-style: none;
+    outline: 1px solid red;
+}
+
+.ul-images {
+    list-style: none;
+    outline: 1px solid red;
+}
+
+.ul-people {
+    list-style: none;
+    outline: 1px solid red;
+}
+
+.li-photo {
+    margin-bottom: 94px;
+}
+
+.human-photo {
+    margin-bottom: 30px;
+}
+
+.main-name-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700px;
+    font-size: 26px;
+    line-height: 30.52px;
+    outline: 1px solid red;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: var(--black-color);
+}
+
+.first-main-section {
+    background-color: var(--background-color);
+    height: 600px;
+}
+
+.fourth-main-section {
+    background-color: var(--backside-color);
+}
+
+.footer {
+    background-color: var(--background-color);
+}
+
