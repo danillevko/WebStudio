@@ -7,6 +7,7 @@
     --lightblack-color: #212121;
     --ligthwight-color: rgba(255, 255, 255, 0.6);
     --gray-color: #757575;
+    --little-dark-white-color: #EEEEEE;
 }
 
 .container {
@@ -60,6 +61,7 @@
     text-align: center;
     background-color: var(--main-color);
     color: #FFFFFF;
+    margin: 0 auto;
 }
 
 
@@ -136,6 +138,7 @@
     line-height: 24px;
     outline: 1px solid red;
     color: var(--white-color);
+    margin-bottom: 9px;
 }
 
 .contacts-footer {
@@ -180,8 +183,12 @@
     color: var(--gray-color);
 }
 
-.first-main-section-portfolio{
+.first-main-section-portfolio {
     margin-bottom: 50px;
+    outline: 1px solid red;
+    text-align: center;
+    gap: 8px;
+    margin-top: 94px;
 }
 
 .main-button {
@@ -192,7 +199,7 @@
     outline: 1px solid red;
 }
 
-.main-button-active{
+.main-button-active {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -204,15 +211,23 @@
 
 .main-info {
     outline: 1px solid red;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 0;
 }
 
 .list-main-info {
     outline: 1px solid red;
+    background-color: var(--little-dark-white-color);
+    width: 370px;
 }
 
 .images-main-info {
     list-style: none;
     outline: 1px solid red;
+    width: 370px;
 }
 
 .name-main-info {
@@ -236,28 +251,51 @@
 .list-categories {
     list-style: none;
     outline: 1px solid red;
+    display: flex;
+    gap: 50px;
+    padding-left: 0;
+    margin: 0 auto;
+    margin-left: 93px;
 }
 
 
 .list-contacts {
     list-style: none;
     outline: 1px solid red;
+    display: flex;
+    gap: 50px;
+    padding-left: 0;
+    margin: 0 auto;
+    margin-left: 344px;
 }
 
 .main-list-item {
     list-style: none;
     outline: 1px solid red;
+    display: flex;
+    padding-left: 0;
+    gap: 30px;
+
 }
 
 .ul-images {
     list-style: none;
     outline: 1px solid red;
+    display: flex;
+    padding-left: 0;
+    gap: 30px;
+    justify-content: center;
 }
 
 .ul-people {
     list-style: none;
     outline: 1px solid red;
+    display: flex;
+    padding-left: 0;
+    gap: 30px;
+    justify-content: center;
 }
+
 
 .li-photo {
     margin-bottom: 94px;
@@ -291,3 +329,22 @@
     background-color: var(--background-color);
 }
 
+.header-section {
+    display: flex;
+}
+
+.first-human {
+    background-color: var(--white-color);
+}
+
+.second-human {
+    background-color: var(--white-color);
+}
+
+.third-human {
+    background-color: var(--white-color);
+}
+
+.fourth-human {
+    background-color: var(--white-color);
+}
