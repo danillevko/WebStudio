@@ -33,7 +33,6 @@
     font-size: 14px;
     line-height: 16.41px;
     outline: 1px solid red;
-    margin-bottom: 32px;
 }
 
 
@@ -256,6 +255,7 @@
     padding-left: 0;
     margin: 0 auto;
     margin-left: 93px;
+    align-items: center;
 }
 
 
@@ -267,6 +267,7 @@
     padding-left: 0;
     margin: 0 auto;
     margin-left: 344px;
+    align-items: center;
 }
 
 .main-list-item {
