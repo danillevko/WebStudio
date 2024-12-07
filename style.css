@@ -63,11 +63,13 @@
     color: #FFFFFF;
     margin: 0 auto;
     align-items: center;
+    box-shadow: 0px 4px 4px 0px #000000;
 }
 
 .order-btn-wraper {
     align-items: center;
     margin: 0 auto;
+    align-items: center;
 }
 
 
@@ -209,6 +211,7 @@
     line-height: 26px;
     outline: 1px solid red;
     border-radius: 4px;
+    box-shadow: 0 2px 2px 0 #000000, 0 1px 2px 0 #000000;
 }
 
 .main-button-active {
@@ -224,7 +227,7 @@
 .main-info {
     outline: 1px solid red;
     display: flex;
-    list-style: none;
+    style: none;
     flex-wrap: wrap;
     gap: 30px;
     padding-left: 0;
@@ -239,11 +242,14 @@
 }
 
 .list-main-info {
+    list-style: none;
     outline: 1px solid red;
     background-color: var(--little-dark-white-color);
     width: 370px;
     flex-basis: calc((100% - 60px) / 3);
     height: 401px;
+    box-shadow: 1px 4px 6px 0 #000000,
+     0 1px 1px 0 #000000;
 }
 
 .images-main-info {
@@ -307,10 +313,10 @@
 .img-second-main-section {
     width: 70px;
     height: 70px;
-    
+
 }
 
-.img-second-main-section::after{
+.img-second-main-section::after {
     background-image: url(./imgs/Rectangle.png);
     width: 270px;
     height: 120px;
@@ -335,9 +341,11 @@
     padding-left: 0;
     gap: 30px;
     justify-content: center;
-
 }
 
+.list-human{
+    box-shadow: 0 2px 1px 0 #000000, 0 1px 1px 0 #000000;
+}
 
 .li-photo {
     margin-bottom: 94px;
