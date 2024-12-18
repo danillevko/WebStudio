@@ -27,6 +27,9 @@
     width: 145px;
 }
 
+.main-name::first-letter{
+    color: var(--main-color);
+}
 
 .categories {
     font-family: "Roboto", sans-serif;
