@@ -235,8 +235,36 @@ h2 {
     margin-bottom: 154px;
 }
 
+.work-item:hover .hover-text {
+    bottom: 0;
+}
+
 .work-item {
-    flex-basis: calc((100% - 60px) / 3);
+    position: relative;
+    overflow: hidden;
+}
+
+.hover-text {
+    position: absolute;
+    bottom: -100%;
+    background-color: rgba(33, 150, 243, 0.9);
+    transition: 1s all;
+}
+
+.port-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+@keyframes info {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateX(0%);
+        background-color: var(--title-color);
+    }
 }
 
 .work-text {
