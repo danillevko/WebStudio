@@ -236,7 +236,7 @@ h2 {
 }
 
 .work-item:hover .hover-text {
-    bottom: 0;
+    bottom: 80px;
 }
 
 .work-item {
@@ -244,16 +244,24 @@ h2 {
     overflow: hidden;
 }
 
+
 .hover-text {
     position: absolute;
     bottom: -100%;
     background-color: rgba(33, 150, 243, 0.9);
-    transition: 1s all;
+    transition: 500ms all;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    padding: 43px 24px;
+    /* width: 322px;
+    height: 168px; */
 }
-
+ 
 .port-wrapper {
     position: relative;
-    z-index: 1;
+    z-index: 1; 
 }
 
 @keyframes info {
