@@ -1,0 +1,388 @@
+@import '../studioUtiles/variable.scss';
+
+.main-text {
+    background-color: $secondary-background-color;
+    text-align: center;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.main-title {
+    color: $main-background-color;
+    font-weight: 900;
+    font-size: 44px;
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    background-color: $title-color;
+    color: $main-background-color;
+    border: transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    width: 216px;
+    height: 50px;
+    letter-spacing: 0.96px;
+}
+
+.backdrop {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.close {
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: transparent;
+    display: flex;
+    padding: 8px;
+}
+
+.model {
+    position: absolute;
+    justify-content: center;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1000px 100px rgb(171, 171, 171), 10px 10px 50px 50px rgb(0, 0, 0);
+    width: 528px;
+    height: 581px;
+    padding: 40px;
+}
+
+.icon-close {
+    height: 18px;
+    width: 18px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form .list {
+    margin-bottom: 20px;
+}
+
+.bold {
+    color: $text-color;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-bottom: 10px;
+}
+
+.form .item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: $text-color;
+}
+
+.form .item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.form .item:focus-within .form-label {
+    color: $title-color;
+}
+
+.form .item:focus-within .form-icon {
+    color: $title-color;
+}
+
+.form-label {
+    text-align: start;
+    margin-bottom: 4px;
+    color: $theird-text-color;
+    font-size: 12px;
+    letter-spacing: 0.12px;
+}
+
+.form-icon {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    fill: currentColor;
+    position: absolute;
+    left: 12px;
+    bottom: 11px;
+}
+
+.form .button {
+    margin: 0;
+    margin: auto;
+}
+
+.field {
+    width: 448px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    outline: none;
+    padding-left: 42px;
+}
+
+.field:hover {
+    border: $title-color;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+}
+
+.textarea {
+    width: 448px;
+    height: 120px;
+    flex-shrink: 0;
+    resize: none;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    padding: 12px 16px;
+    outline: none;
+}
+
+textarea::placeholder {
+    color: rgba(117, 117, 117, 0.50);
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: 0.12px;
+}
+
+.group {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-link {
+    width: 400px;
+    height: 24px;
+    flex-shrink: 0;
+    color: $theird-text-color;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+
+.conditions {
+    color: $title-color;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    text-decoration-skip-ink: none;
+}
+
+.serv-section {
+    padding-bottom: 118px;
+    padding-top: 94px;
+}
+
+.serv-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.serv-list .serv-text {
+    color: $theird-text-color;
+}
+
+.advantege-icon {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: #F5F4FA;
+}
+
+.serv-item {
+    display: block;
+    height: 100px;
+}
+
+.what-we-do {
+    padding-bottom: 188px;
+}
+
+.what-we-do-list {
+    display: flex;
+    gap: 30px;
+}
+
+.position {
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.label {
+    position: absolute;
+    bottom: 3px;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: 8px 16px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    color: #FFF;
+    background: rgba(47, 48, 58, 0.80);
+}
+
+.team .container {
+    background-color: $theird-background-color;
+    margin-bottom: 154px;
+}
+
+.our-team {
+    margin-bottom: 50px;
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.team-text {
+    text-align: center;
+}
+
+.team-toptext {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.team-undertext {
+    color: $theird-text-color;
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.icon-link {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: $theird-text-color;
+}
+
+.icon-link:hover {
+    color: #F5F4FA;
+    background-color: $title-color;
+    border-radius: 50%;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+.clients {
+    display: flex;
+    gap: 94px;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-bottom: 110px;
+    margin-top: 66px;
+    color: $theird-text-color;
+}
+
+.brand {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    color: $theird-text-color;
+}
+
+.brand-icon {
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
+}
+
+.brand:hover,
+.brand:focus {
+    color: $title-color;
+    border: 1px solid #2196F3;
+}
+
+footer {
+    background-color: $secondary-background-color;
+    color: $theird-text-color;
+}
+
+.logo {
+    display: block;
+    padding-top: 60px;
+    color: $main-background-color;
+    padding: 0;
+}
+
+.footer-address {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.kyiv {
+    padding-bottom: 10px;
+    color: $main-background-color;
+}
+
+.phone {
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+.footer-icons {
+    display: inline-flex;
+    gap: 10px;
+    border: $secondary-text-color;
+}

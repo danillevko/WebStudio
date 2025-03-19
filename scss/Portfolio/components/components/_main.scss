@@ -1,0 +1,83 @@
+@import '../studioUtiles/variable.scss';
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 94px;
+    gap: 8px;
+}
+
+.buttons {
+    color: $text-color;
+    background-color: $theird-background-color;
+    border: transparent;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.buttons:hover,
+.buttons:focus {
+    background-color: $title-color;
+    color: $main-background-color;
+}
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 154px;
+}
+
+.work-item:hover .hover-text {
+    bottom: 80px;
+}
+
+.work-item {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.hover-text {
+    position: absolute;
+    bottom: -100%;
+    background-color: rgba(33, 150, 243, 0.9);
+    transition: 500ms all;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    padding: 43px 24px;
+    /* width: 322px;
+    height: 168px; */
+}
+ 
+.port-wrapper {
+    position: relative;
+    z-index: 1; 
+}
+
+@keyframes info {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateX(0%);
+        background-color: $title-color;
+    }
+}
+
+.work-text {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.work-toptext {
+    margin-top: 20px;
+}
+
+.work-undertext {
+    margin-bottom: 20px;
+}
